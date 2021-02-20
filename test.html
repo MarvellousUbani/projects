@@ -273,7 +273,12 @@ nav .content .links{
   }
 
   .content .links #show-faq:checked ~ ul,
-  .content .links #show-items:checked ~ ul{
+  .content .links #show-items:checked ~ ul, 
+  .content .links #show-inverters:checked ~ ul,
+  .content .links #show-money:checked ~ ul,
+  .content .links #show-synergy:checked ~ ul,
+  .content .links #show-batteries:checked ~ ul,
+  .content .links #show-panels:checked ~ ul{
     max-height: 100vh;
   }
   .content .links ul li{
@@ -316,8 +321,8 @@ nav .content .links{
             <label for="show-faq">FAQ</label>
             <ul>
               <li><a class="main-sub-link" href="#">Inverters</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">Inverters</label>
+                <input type="checkbox" id="show-inverters">
+                <label for="show-inverters">Inverters</label>
                 <ul>
                   <li><a href="#">Inverter comparison</a></li>
                   <li><a href="#">Connecting batteries</a></li>
@@ -331,8 +336,8 @@ nav .content .links{
                 </ul>
               </li>
               <li><a class="main-sub-link" href="#">Panels</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">Panels</label>
+                <input type="checkbox" id="show-panels">
+                <label for="show-panels">Panels</label>
                 <ul>
                   <li><a href="#">Panel comparison</a></li>
                   <li><a href="#">Production calculator</a></li>
@@ -346,16 +351,16 @@ nav .content .links{
                 </ul>
               </li>
               <li><a class="main-sub-link" href="#">Batteries</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">Batteries</label>
+                <input type="checkbox" id="show-batteries">
+                <label for="show-batteries">Batteries</label>
                 <ul>
                   <li><a href="#">Battery comparison</a></li>
                   <li><a href="#">AC or DC Coupled</a></li>
                 </ul>
               </li>
               <li><a class="main-sub-link" href="#">Money</a>
-              <input type="checkbox" id="show-items">
-                <label for="show-items">Money</label>
+              <input type="checkbox" id="show-money">
+                <label for="show-money">Money</label>
                 <ul>
                   <li><a href="#">Power bill savings</a></li>
                   <li><a href="#">Subsidies and FiTs</a></li>
@@ -367,8 +372,8 @@ nav .content .links{
               </li>
               <li>
                 <a href="#" class="desktop-link main-sub-link">Synergy</a>
-                <input type="checkbox" id="show-items">
-                <label for="show-items">Synergy</label>
+                <input type="checkbox" id="show-synergy">
+                <label for="show-synergy">Synergy</label>
                 <ul>
                   <li><a href="#">Synergy prices and FiTs</a></li>
                   <li><a href="#">Solar application</a></li>
