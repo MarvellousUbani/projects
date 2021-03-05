@@ -8,7 +8,7 @@ body{
 
 
  
-  .logo{
+  .header-logo{
     max-width:330px;
     height:auto;
     padding-left:1rem;
@@ -89,7 +89,7 @@ nav .content .links{
   margin-left: 80px;
   display: flex;
 }
-.content .logo a{
+.content .header-logo a{
   color: #fff;
   font-size: 30px;
   font-weight: 600;
@@ -113,6 +113,7 @@ nav .content .links{
 .content .links li a:hover,
 .content .links li label:hover{
   background: #323c4e;
+  text-decoration: none;
 }
 
 .m-wrapper .menu-icon{
@@ -217,7 +218,7 @@ nav .content .links{
   .m-wrapper nav{
     padding: 0 10px;
   }
-  .content .logo a{
+  .content .header-logo a{
     font-size: 27px;
   }
 }
@@ -514,6 +515,10 @@ main{
   margin-top:1rem;
 }
 
+.mt-20{
+  margin-top:20px;
+}
+
 @media screen and (max-width: 900px){
   .story-block{
     flex-direction: column;
@@ -555,7 +560,7 @@ main{
   .contact-form-row .m-col{
     width:100%;
   }
-  .logo{
+  .header-logo{
     max-width: 220px;
   }
 
